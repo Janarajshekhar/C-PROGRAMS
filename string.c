@@ -35,7 +35,8 @@ void strcmp_function()
     result_1=strcmp(str1,str2);
     result_2=strcmp(str2,str3);
     result_3=strcmp(str1,str3);
-    /*  -1 :- str1 cames before str2 in dictianary
+    /*
+       -1  :- str1 cames before str2 in dictianary
         1  :- str2 cames after str3 in dictianary
         0  :- str1 and str 3 is same
     */
