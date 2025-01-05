@@ -11,7 +11,7 @@ void find_the_revers_of_string()
     int i,j,len;
     char str_1[40],str_2[40];
     printf("Enter a string: ");
-    fgets(str_1,sizeof(str_1),stdin);
+    fgets(str_1,40,stdin);
     len=strlen(str_1);
     if (str_1[len - 1] == '\n') {
         str_1[len - 1] = '\0';
