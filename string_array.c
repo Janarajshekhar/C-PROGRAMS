@@ -41,14 +41,14 @@ void check_a_string_is_palindrom_or_not()
     str_2[i]=str_1[j];
     }
     str_2[i]='\0';
-    // printf("\n original string : %s",str_1);
-    // printf("\n reverse string : %s",str_2);
+    printf("\n original string : %s",str_1);
+    printf("\n reverse string : %s",str_2);
     if(strcmp(str_1,str_2)==0)
     {
-        printf("string is palindrom");
+        printf("\n string is palindrom");
     }
     else
     {
-        printf("string is not palindrom");
+        printf("\n string is not palindrom");
     }
 }
