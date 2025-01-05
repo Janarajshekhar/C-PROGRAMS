@@ -3,11 +3,13 @@
 void strcat_function();
 void strlen_function();
 void strcmp_function();
+void strcpy_function();
 int main()
 {
     strcat_function();
     strlen_function();
     strcmp_function();
+    strcpy_function();
     return 0;
 }
 void strcat_function()
@@ -43,4 +45,12 @@ void strcmp_function()
     printf("\n comperation of str1 and str2 : %d",result_1);
     printf("\n comperation of str2 and str3 : %d",result_2);
     printf("\n comperation of str1 and str3 : %d",result_3);
+}
+void strcpy_function()
+{
+    char source[]="Midnapore College";
+    char dest[20];
+    strcpy(dest,source);
+    printf("\n source : %s",source);
+    printf("\n Destination : %s",dest);
 }
